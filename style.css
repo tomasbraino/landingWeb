@@ -1,0 +1,30 @@
+/*-------------------- Navbar --------------------*/
+.navbar {
+    background-color: rgb(43, 66, 138) !important;
+}
+nav a img {
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+nav li {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    margin: 40px;
+}
+
+nav li:hover{
+    box-shadow: 45px 25px 25px transparent ;
+    transform: translate(15px, 5px);
+    transition: 0.6s;
+}
+
+nav li a:hover {
+    color: rgba(236, 232, 232, 0.931) !important;
+}
+
+.nav-item i {
+    font-size: 35px;
+}
